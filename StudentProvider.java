@@ -38,7 +38,7 @@ public class StudentProvider extends ContentProvider{
 	   static final String GRADE = "grade";
 	   private HashMap<String,String>STUDENTS_PROJECTION_MAP;
 	   static final int STUDENT=1;
-	   static final int STUDENT_ID=2;
+	   static final int STUDENT_ID=3;
 	   static final UriMatcher uriMatcher;
 	   static{
 		   uriMatcher=new UriMatcher(UriMatcher.NO_MATCH);
