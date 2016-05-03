@@ -19,7 +19,7 @@ import android.widget.Toast;
 
 public class DisplayContact extends Activity{ 
 EditText name;
-EditText phonenumber;
+EditText phonenumber,contact;
 EditText email;
 EditText place;
 Button btn,btn1;
