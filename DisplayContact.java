@@ -14,12 +14,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+
+
 public class DisplayContact extends Activity{ 
 EditText name;
 EditText phonenumber;
 EditText email;
 EditText place;
-Button btn;
+Button btn,btn1;
 DBHelper mydb;
 int id_To_Update=0;
 @Override
