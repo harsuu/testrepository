@@ -27,7 +27,11 @@ public class StudentProvider extends ContentProvider{
 	//public static final Uri CONTENT_URI = null;
 	//public static final String NAME = null;
 	//public static final String GRADE = null;
+<<<<<<< HEAD
 	EditText edit1,edit2;
+=======
+	EditText edit1,edit2,edit3;
+>>>>>>> local
 	Button btn1,btn2;
 	static final String PROVIDER_NAME="com.example.exmple.college";
 	static final String URL = "content://" + PROVIDER_NAME + "/students";
@@ -38,7 +42,11 @@ public class StudentProvider extends ContentProvider{
 	   static final String GRADE = "grade";
 	   private HashMap<String,String>STUDENTS_PROJECTION_MAP;
 	   static final int STUDENT=1;
+<<<<<<< HEAD
 	   static final int STUDENT_ID=2;
+=======
+	   static final int STUDENT_ID=3;
+>>>>>>> local
 	   static final UriMatcher uriMatcher;
 	   static{
 		   uriMatcher=new UriMatcher(UriMatcher.NO_MATCH);
@@ -190,4 +198,8 @@ public class StudentProvider extends ContentProvider{
 	      return count;
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> local
