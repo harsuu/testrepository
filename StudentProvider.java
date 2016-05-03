@@ -27,7 +27,7 @@ public class StudentProvider extends ContentProvider{
 	//public static final Uri CONTENT_URI = null;
 	//public static final String NAME = null;
 	//public static final String GRADE = null;
-	EditText edit1,edit2;
+	EditText edit1,edit2,edit3;
 	Button btn1,btn2;
 	static final String PROVIDER_NAME="com.example.exmple.college";
 	static final String URL = "content://" + PROVIDER_NAME + "/students";
